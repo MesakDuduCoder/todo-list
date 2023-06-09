@@ -1,0 +1,22 @@
+.input {
+  margin-bottom: 10px;
+}
+
+.input form {
+  display: flex;
+  justify-content: center;
+}
+
+.input form input {
+  box-sizing: border-box;
+  height: 30px;
+  width: 90%;
+  padding: 5px;
+}
+
+.input form button {
+  box-sizing: border-box;
+  width: 10%;
+  height: 30px;
+  float: right;
+}
