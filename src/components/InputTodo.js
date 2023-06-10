@@ -1,31 +1,35 @@
-import React, { useRef } from 'react';
+import React, { useState } from 'react';
 import { FaPlusCircle } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 
 import '../css/inputTodo.css';
 
 function InputTodo({ addItem, list, id }) {
-  const ref = useRef();
+  const [todo, setTodo] = useState('');
+
+  const handleTodo = (e) => {
+    setTodo(e.target.value);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const newList = [
       {
         id,
-        title: ref.current.value,
+        title: todo,
         done: false,
       },
     ];
     const add = list.concat(newList);
     addItem(add);
 
-    ref.current.value = '';
+    setTodo('');
   };
 
   return (
     <div className="input">
       <form onSubmit={handleSubmit}>
-        <input type="text" ref={ref} />
+        <input type="text" onChange={handleTodo} value={todo} />
         <button type="submit">
           <FaPlusCircle />
         </button>

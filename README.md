@@ -3,7 +3,7 @@
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
-  <h3><b>Math Magicians</b></h3>
+  <h3><b>React To Do List</b></h3>
 
 </div>
 
@@ -15,7 +15,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo) 
+    <!-- - [🚀 Live Demo](#live-demo)  -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math-Magicians] <a name="about-project"></a>
+# 📖 [React-to-do-list] <a name="about-project"></a>
 
-**[Math-Magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+**[React-to-do-list]** is a website for writing down your daily tasks with edit and mark completed functionality. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations.
 Read a random math-related quote.
@@ -75,18 +75,19 @@ Read a random math-related quote.
 ### Key Features <a name="key-features"></a>
 
 - **[single_page_app]**
-- **[perform_calculations]**
-- **[quotes_section]**
+- **[add_todo-item]**
+- **[mark-done-todo-item]**
+- **[edit-todo-item]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
+<!-- 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mesakduducoder.github.io/math-magicians/)
+- [Live Demo Link]()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -106,13 +107,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/MesakDuduCoder/math-magicians.git
+git clone https://github.com/MesakDuduCoder/react-todo-list.git
 
 ### Install
 
 Install this project with:
 
-  cd math-magicians
+  cd react-todo-list
   then type npm install
 
 ### Usage
