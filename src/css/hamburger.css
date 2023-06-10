@@ -1,0 +1,64 @@
+button {
+  cursor: pointer;
+  float: left;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.navbar .toggle {
+  position: fixed;
+  left: 30px;
+  top: 40px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.menu-nav {
+  list-style: none;
+  border: 1px solid gray;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  top: 65px;
+  width: 0;
+  overflow: hidden;
+  padding: 0;
+  font-size: 18px;
+  box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
+  transform: translateX(-100px);
+  transition: transform ease-in-out 1s;
+
+  /* transition: width ease 0.2s; */
+}
+
+.menu-nav.show-menu {
+  left: 100px;
+  width: 100px;
+  transform: translateX(0);
+}
+
+.menu-nav li a,
+.menu-nav li span {
+  display: block;
+  padding: 1rem;
+}
+
+.log-in {
+  color: #777;
+  border-top: 1px solid #efecec;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* logout */
+.logout {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  display: flex;
+  gap: 2rem;
+  font-size: 20px;
+  color: #005bb3;
+}
